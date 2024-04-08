@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Perfil - Datos personales.</h1>
+    <form action="">
+        <label for="student"></label>
+        <input type="text" id="student" name="student" value="Estudiante" readonly>
+
+        <br>
+        <br>
+
+
+        <label for="nombre">Nombre Completo</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Jose Lopez" required>
+
+        <br>
+        <br>
+
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="joselopez@123asd.com" required>
+
+        <br>
+        <br>
+
+
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" placeholder="42" min="18" max="99" required>
+        
+        <br>
+        <br>
+
+
+        <label for="nacionalidad">Nacionalidad</label>
+        <select name="nacionalidad" id="nacionalidad" required>
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguaya">Uruguay</option>
+            <option value="Chilena">Chilena</option>
+            <option value="Otro">Otro</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <label for="laboral">Condicion Laboral</label>
+        <select name="laboral" id="laboral" required>
+            <option value="desempleo">Desempleado</option>
+            <option value="enbusqueda">En busqueda laboral</option>
+            <option value="parttime">Part Time</option>
+            <option value="fulltime">Full Time</option>
+
+
+        </select>
+
+
+        <h4>Gustos Personales</h4>
+
+        <label for="gustos">Gustos Musicales</label>
+        <input type="text" name="gustos" id="gustos" required>
+    </form>
+</body>
+</html>
