@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Club Centenario M.S.D. y B.</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <h1>Contacto</h1>
+            <form action="">
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="edad">Edad:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="edad" id="edad">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="color">Color preferido:</label>
+                    </td>
+                    <td>
+                        <input type="color" name="color" id="color" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comentario">Comentario</label>
+                    </td>
+                    <td>
+                        <textarea name="comentario" id="comentario" cols="21" rows="10" minlength="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+
+           </form>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <img src="multimedia/Escudo.png" alt="escudo">
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright Club Centenario M.S.D. y B.</p>
+        <p>* * * * * * * * * * * * *</p>
+    </footer>
+</body>
+
+</html>
