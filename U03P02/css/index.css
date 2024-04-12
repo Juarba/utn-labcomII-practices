@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: #221785;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #099aee;
+    font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 5px ;
+    
+}
+
+.logo:hover{
+    background-color: rgba(11, 99, 182, 0.5);
+    border-radius: 25px;
+
+}
+
+
+.fa-brands {
+    color:#099aee;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #099aee;
+}
+
+
+.nav-item:hover {
+    background-color: rgba(11, 99, 182, 0.5);
+    border-radius: 25px;
+}
+
+.nav-item:hover a {
+    
+    color:aquamarine;
+}
+
+
+
+.nav-item-login a {
+    display: inline-block;
+    font-family: cursive;
+    text-decoration: none;
+    color: #099aee;
+    font-size: 15px;
+    padding: 10px 15px;
+
+}
+
+.nav-item-login:hover a {
+    background-color: rgba(11, 99, 182, 0.5);
+    border-radius: 25px;
+    color:aquamarine;
+}
+
+.nav-item-login:hover {
+    background-color: rgba(11, 99, 182, 0.5);
+    border-radius: 25px;
+    color:aquamarine;
+
+}
