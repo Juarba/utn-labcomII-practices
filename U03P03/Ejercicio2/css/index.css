@@ -1,0 +1,24 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0;
+    list-style: none;
+    flex-direction: column;
+    width: max-content;
+}
+
+ul li {
+    background: rgba(123, 198, 199, 0.8);
+    flex-grow: 1;
+}
+
+ul a
+{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
