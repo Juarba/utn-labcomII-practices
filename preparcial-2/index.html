@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<form action="" name="Conversor">
+    <input type="number" id="pesos" name="pesos">
+    <select id="cambio" name="cambio">
+        <option value="elegir">Elegir una moneda</option>
+        <option value="dolares">Dólares</option>
+        <option value="euros">Euros</option>
+    </select>
+    <button type="button" onclick="Calcular()">Calcular</button>
+
+    <input type="number" id="resultado" name="resultado" readonly>
+</form>
+
+<form action="">
+
+    <div>
+        <label for="nuevaMoneda">Moneda</label>
+        <input type="text" name="nuevaMoneda" id="nuevaMoneda">
+    </div>
+    <div>
+        <label for="valorMoneda">Importe</label>
+        <input type="number" name="valorMoneda" id="valorMoneda">
+    </div>
+
+    <button type="button" onclick="addMoneda()">Agregar</button>
+</form>
+
+<script src="js/index.js"></script>
+</body>
+
+</html>
